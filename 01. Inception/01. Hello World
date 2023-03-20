@@ -1,8 +1,13 @@
 Hello World using HTML:
 ----------------------
+
 <h1 id="root"> Hello World </h1>
 
---------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
@@ -16,8 +21,7 @@ Ex-1:
         let heading= document.getElementById("root");
         heading.innerHTML = "Hello World";
     </script>
-
-
+-----------------------------------------------------
 Ex-2:
 <div id="root1"></div>
 
@@ -28,4 +32,30 @@ Ex-2:
        root.appendChild(heading);
     </script>
 
---------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+Hello world using React:
+----------------------------
+
+<div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>                  // cdn link of react core
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>          // cdn link of react dom
+    
+    <script>
+        const heading=React.createElement("h1",{},"Hello React..!")
+        const root= ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
+    </script>
+    
+ ------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
