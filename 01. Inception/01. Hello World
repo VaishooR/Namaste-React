@@ -1,0 +1,31 @@
+Hello World using HTML:
+----------------------
+<h1 id="root"> Hello World </h1>
+
+--------------------------------------------
+
+
+
+Hello world using Javascript:
+----------------------------
+
+Ex-1:
+<h1 id="root">  </h1>
+
+    <script>
+        let heading= document.getElementById("root");
+        heading.innerHTML = "Hello World";
+    </script>
+
+
+Ex-2:
+<div id="root1"></div>
+
+    <script>
+       let heading=document.createElement("h1");
+       heading.innerHTML = "Hey Vaishoo!!!";
+       let root= document.getElementById("root1");
+       root.appendChild(heading);
+    </script>
+
+--------------------------------------------
