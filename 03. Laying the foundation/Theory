@@ -4,18 +4,15 @@ Q) If we have sibling elements, we have to provide keys to each sibling element.
 ---> Whenever we re-render on adding a new sibling, it has to modify everything inside that DOM. 
      Instead, when keys are given, it just injects the sibling wherever we want to. Keys are given as props. 
 ---------------------------------------------------------------------------------------------------------------------  
-
 Q) Why was React introduced?
 
 ---> When Facebook introduced React, the major concept behind introducing the React was that 
      we want to unite a lot of HTML using Javascript because Javascript was very performant.
 ---------------------------------------------------------------------------------------------------------------------  
-
 Q) What is JSX?
 
 ---> JSX is a HTML like syntax written inside the Javascript.
 ---------------------------------------------------------------------------------------------------------------------  
-
 Q)  Why do we use JSX?
 
 ---> React was primarily built to create HTML tags using JavaScript. Because JavaScript is very performant. 
@@ -31,7 +28,20 @@ Q)  Why do we use JSX?
                      )
      But when we add multiple tags to a variable, we enclose them using ( ) brackets.
 ---------------------------------------------------------------------------------------------------------------------  
+Q) Does the browser understand JSX?
 
+---> No
+---> A browser can understand the HTML codes. So try writing this piece of JSX code on the dev console.
+     const heading = </h1> Hello World </h1>
+     It throws an error. Because browser doesnot understand JSX syntax codes.
+---> So React uses a Javascript compiler called Babel that transforms the JSX syntax to normal HTML like syntax.
+---> Any piece of React code or React element behind the scenes is an object, or gets converted into an object.
+---> Jsx internally uses React.createElement() which generates an object and this object gets converted into HTML code and this HTML code gets rendered on the DOM.
+---------------------------------------------------------------------------------------------------------------------  
+---------------------------------------------------------------------------------------------------------------------  
+---------------------------------------------------------------------------------------------------------------------  
+---------------------------------------------------------------------------------------------------------------------  
+---------------------------------------------------------------------------------------------------------------------  
 
 
 
