@@ -1,0 +1,5 @@
+Q) If we have sibling elements, we have to provide keys to each sibling element. Why?
+
+---> render means updating something to the DOM tree. 
+---> Whenever we re-render on adding a new sibling, it has to modify everything inside that DOM. 
+     Instead, when keys are given, it just injects the sibling wherever we want to. Keys are given as props. 
