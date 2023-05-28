@@ -38,6 +38,15 @@ Q) Does the browser understand JSX?
 ---> Any piece of React code or React element behind the scenes is an object, or gets converted into an object.
 ---> Jsx internally uses React.createElement() which generates an object and this object gets converted into HTML code and this HTML code gets rendered on the DOM.
 ---------------------------------------------------------------------------------------------------------------------  
+Q) What is Babel?
+
+---> Babel comes as a dependency when we install Parcel.
+---> Babel is a tool that converts the ES6 codes into a backwards compatible version of JavaScript so that older browsers can understand it.
+
+diff bw babel and parcel?
+--> Parcel is a bundler used to minify multiple files in a JavaScript project and comes up with a single output file and increase the overall efficiency. 
+--> Babel is a compiler that converts the ES6 version of js codes into older versions so that all the browsers can understand the code.
+
 ---------------------------------------------------------------------------------------------------------------------  
 ---------------------------------------------------------------------------------------------------------------------  
 ---------------------------------------------------------------------------------------------------------------------  
