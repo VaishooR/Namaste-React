@@ -3,8 +3,19 @@ Q) If we have sibling elements, we have to provide keys to each sibling element.
 ---> render means updating something to the DOM tree. 
 ---> Whenever we re-render on adding a new sibling, it has to modify everything inside that DOM. 
      Instead, when keys are given, it just injects the sibling wherever we want to. Keys are given as props. 
-     
-     
+---------------------------------------------------------------------------------------------------------------------  
+
+Q) Why was React introduced?
+
+---> When Facebook introduced React, the major concept behind introducing the React was that 
+     we want to unite a lot of HTML using Javascript because Javascript was very performant.
+---------------------------------------------------------------------------------------------------------------------  
+
+Q) What is JSX?
+
+---> JSX is a HTML like syntax written inside the Javascript.
+---------------------------------------------------------------------------------------------------------------------  
+
 Q)  Why do we use JSX?
 
 ---> React was primarily built to create HTML tags using JavaScript. Because JavaScript is very performant. 
@@ -19,3 +30,8 @@ Q)  Why do we use JSX?
                         </h3> Hello World </h3> 
                      )
      But when we add multiple tags to a variable, we enclose them using ( ) brackets.
+---------------------------------------------------------------------------------------------------------------------  
+
+
+
+
