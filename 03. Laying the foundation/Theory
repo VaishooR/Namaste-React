@@ -40,15 +40,43 @@ Q) Does the browser understand JSX?
 ---------------------------------------------------------------------------------------------------------------------  
 Q) What is Babel?
 
----> Babel comes as a dependency when we install Parcel.
 ---> Babel is a tool that converts the ES6 codes into a backwards compatible version of JavaScript so that older browsers can understand it.
+---> Babel gets installed automatically and comes as a dependency when we install Parcel.
 
 diff bw babel and parcel?
 --> Parcel is a bundler used to minify multiple files in a JavaScript project and comes up with a single output file and increase the overall efficiency. 
 --> Babel is a compiler that converts the ES6 version of js codes into older versions so that all the browsers can understand the code.
 
 ---------------------------------------------------------------------------------------------------------------------  
+Q) What are some advantages of using JSX syntax?
+
+---> Readability
+---> Less code
+---> Easy to maintain
+---> Good developer experience
+---> No repeated codes
+---> Syntactical sugar
 ---------------------------------------------------------------------------------------------------------------------  
+Q) What are React functional components?
+
+---> Functional components are simple Javascript functions that returns some React elements.
+---> Functional component's name starts with a capital letter. It's not mandatory but it is a good practice to use this convention.
+
+ex: const greet = () => {
+          return (
+              <h1></h1>
+              <p></p>
+           )
+      }
+      
+ The above code can be written like this:
+ 
+ex: const greet = () => 
+          (
+              <h1></h1>
+              <p></p>
+           )
+      
 ---------------------------------------------------------------------------------------------------------------------  
 ---------------------------------------------------------------------------------------------------------------------  
 
