@@ -62,7 +62,7 @@ Q) What are React functional components?
 ---> Functional components are simple Javascript functions that returns some React elements.
 ---> Functional component's name starts with a capital letter. It's not mandatory but it is a good practice to use this convention.
 
-ex: const greet = () => {
+ex: const Greet = () => {
           return (
               <h1></h1>
               <p></p>
@@ -71,7 +71,7 @@ ex: const greet = () => {
       
 The above code can be written like this:
  
-ex: const greet = () => 
+ex: const Greet = () => 
           (
               <h1></h1>
               <p></p>
@@ -89,7 +89,7 @@ const greet = (
      
 Functional component:
 ---------------------
-const greet = () => 
+const Greet = () => 
            (
               <h1></h1>
               <p></p>
@@ -97,13 +97,17 @@ const greet = () =>
       
       (or)
       
-const greet = () => {
+const Greet = () => {
           return (
               <h1></h1>
               <p></p>
            )
       }
----------------------------------------------------------------------------------------------------------------------  
+--------------------------------------------------------------------------------------------------------------------- 
+Q) What are the different ways to render a functional component?
+
+--->   < Greet />
+--->   { Greet() }
 ---------------------------------------------------------------------------------------------------------------------  
 ---------------------------------------------------------------------------------------------------------------------  
 ---------------------------------------------------------------------------------------------------------------------  
